@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { useHistory } from 'react-router-dom'
 
 import Header from '../Components/Header'
 import GeneralButton from '../Components/GeneralButton'
@@ -12,6 +13,13 @@ const BackDiv = styled.div`
 `
 
 const Home = () => {
+    const history = useHistory()
+
+    function ContactOnClick(e) {
+        e.preventDefault()
+        history.push('/contact')
+    }
+
     return(
         <>
             <BackDiv className="w-full h-screen">
@@ -30,7 +38,7 @@ const Home = () => {
                             <div className="my-5 md:mx-5">
                                 <GeneralButton text={'Portafolio'} />
                             </div>
-                            <div className="my-5 md:mx-5">
+                            <div  onClick={ContactOnClick} className="my-5 md:mx-5">
                                 <GeneralButton text={'Hablemos'} />
                             </div>
                         </div>

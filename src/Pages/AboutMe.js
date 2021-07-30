@@ -4,7 +4,7 @@ import Header from '../Components/Header'
 
 import Me from '../Resources/Imagenes/me.jpeg'
 import Moon from '../Resources/Imagenes/moon.jpg'
-import Nature from '../Resources/Imagenes/stars2.jpg'
+import Nature from '../Resources/Imagenes/wood.jpg'
 
 const BackDiv = styled.div`
     background: url(${Moon});

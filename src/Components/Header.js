@@ -16,6 +16,11 @@ const Header =() => {
         history.push('/aboutme')
     }
 
+    function ContactOnClick(e) {
+        e.preventDefault()
+        history.push('/contact')
+    }
+
     return(
         <div className="fixed md:flex w-full h-auto justify-between font-bold overflow-x-auto">
             <div className="hidden md:flex text-white">
@@ -26,7 +31,7 @@ const Header =() => {
                     <li onClick={HomeOnClick} className="cursor-pointer hover:bg-white hover:text-black duration-500 px-4 rounded-full">Inicio</li>
                     <li className="cursor-pointer hover:bg-white hover:text-black duration-500 px-4 rounded-full">Portafolio</li>
                     <li onClick={AboutMeOnClick} className="cursor-pointer hover:bg-white hover:text-black duration-500 px-4 rounded-full">Sobre mí</li>
-                    <li className="cursor-pointer hover:bg-white hover:text-black duration-500 px-4 rounded-full">Contacto</li>
+                    <li onClick={ContactOnClick} className="cursor-pointer hover:bg-white hover:text-black duration-500 px-4 rounded-full">Contacto</li>
                 </ul>
             </div>
         </div>
