@@ -22,7 +22,7 @@ const AboutMe = () => {
     return(
         <>
             <Header />
-            <BackDiv className="w-full">
+            <BackDiv className="w-full md:h-screen">
                 <div className="flex flex-col md:flex-row w-full h-auto pt-20">
                     <div className="flex justify-center w-full h-full md:w-1/4 overflow-hidden">
                         <img src={Me} className="w-2/4 md:w-3/4 rounded-full md:ml-20 mt-10 ring-2 ring-blue-600" alt=""/>
