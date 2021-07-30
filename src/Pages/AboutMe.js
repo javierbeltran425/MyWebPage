@@ -22,7 +22,7 @@ const AboutMe = () => {
     return(
         <>
             <Header />
-            <BackDiv className="w-full h-screen">
+            <BackDiv className="w-full">
                 <div className="flex flex-col md:flex-row w-full h-auto pt-20">
                     <div className="flex justify-center w-full h-full md:w-1/4 overflow-hidden">
                         <img src={Me} className="w-2/4 md:w-3/4 rounded-full md:ml-20 mt-10 ring-2 ring-blue-600" alt=""/>
@@ -31,7 +31,7 @@ const AboutMe = () => {
                         <div className="text-white ml-10 md:ml-20 mr-5">
                             <h1 className="md:text-2xl">¿Quién soy?</h1>
                             <h2 className="text-xl md:text-5xl font-bold">¡HOLA!</h2>
-                            <p className="mt-4 font-bold">
+                            <p className="mt-4 font-bold pb-5">
                                 Mi nombre es Javier Beltrán. <br/><br/>
                                 Soy estudiante de ingenieria informática en mi penúltimo año de carrera. <br/><br/>
 
@@ -44,7 +44,7 @@ const AboutMe = () => {
                 </div>
             </BackDiv>
 
-            <BackDivNature className="w-full h-screen">
+            <BackDivNature className="w-full">
                             <p className="text-white pt-32">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus, nibh lacinia vestibulum posuere, quam est viverra tortor, at vestibulum eros tortor sit amet quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis malesuada volutpat ante, sit amet volutpat augue bibendum id. Vestibulum et libero porttitor, euismod tellus non, finibus est. Duis aliquam nisi nec nisi eleifend consequat. Etiam urna metus, consequat sed pharetra ac, pellentesque ac nunc. Praesent feugiat pretium mi, vel tincidunt sapien tristique ut. Fusce vitae vulputate enim. In diam nibh, fermentum eget urna non, auctor tempus ex. Curabitur at neque vel orci fermentum dictum. Cras condimentum nunc id sagittis hendrerit. Maecenas accumsan est odio, non semper magna rhoncus vel. Nullam tellus justo, dapibus eget justo in, hendrerit blandit metus.
 
