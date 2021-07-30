@@ -22,7 +22,7 @@ const Home = () => {
 
     return(
         <>
-            <BackDiv className="w-full h-screen">
+            <BackDiv className="w-full md:h-screen">
                 <Header />
                 <div className="flex flex-col md:flex-row w-full h-auto pt-20">
                     <div className="flex justify-center w-full md:w-1/4 h-full overflow-hidden">
