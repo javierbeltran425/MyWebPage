@@ -48,7 +48,7 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="w-full">
+                        <div className="w-full h-full">
                             <div className="flex flex-col items-center md:items-start w-full pl-5">
                                 <label className="text-lg font-bold mt-3">Escribeme un mensaje: </label>
                                 <textarea ref={message} type="text" rows="8" className="my-3 w-3/4 border rounded shadow-md text-gray-600 px-2 py-2 focus:border-purple-700 focus:ring-1 focus:ring-purple-700 outline-none"></textarea>
@@ -57,7 +57,7 @@ const Contact = () => {
 
                     </form>
 
-                    <div className="flex justify-center w-full mt-10 mb-10">
+                    <div className="flex justify-center w-full h-full mt-10 mb-10">
                         <GeneralButton text={"Enviar"} />
                     </div>
                 </div>
