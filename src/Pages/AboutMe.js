@@ -44,7 +44,7 @@ const AboutMe = () => {
                 </div>
             </BackDiv>
 
-            <BackDivNature className="w-full">
+            <BackDivNature className="w-full md:h-screen">
                             <p className="text-white pt-32">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus, nibh lacinia vestibulum posuere, quam est viverra tortor, at vestibulum eros tortor sit amet quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis malesuada volutpat ante, sit amet volutpat augue bibendum id. Vestibulum et libero porttitor, euismod tellus non, finibus est. Duis aliquam nisi nec nisi eleifend consequat. Etiam urna metus, consequat sed pharetra ac, pellentesque ac nunc. Praesent feugiat pretium mi, vel tincidunt sapien tristique ut. Fusce vitae vulputate enim. In diam nibh, fermentum eget urna non, auctor tempus ex. Curabitur at neque vel orci fermentum dictum. Cras condimentum nunc id sagittis hendrerit. Maecenas accumsan est odio, non semper magna rhoncus vel. Nullam tellus justo, dapibus eget justo in, hendrerit blandit metus.
 
