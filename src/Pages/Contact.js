@@ -20,7 +20,7 @@ const Contact = () => {
         <>
             <BackDiv className="w-full h-screen">
                 <Header />
-                <h1 className="text-white text-center text-xl md:text-5xl font-bold pt-24">¿Estas listo para trabajar con migo?</h1>
+                <h1 className="text-white text-center text-xl md:text-5xl font-bold pt-16">¿Estas listo para trabajar con migo?</h1>
                 <h2 className="text-white text-center md:text-3xl font-bold pt-5">¡HABLEMOS!</h2>
 
                 <div className="w-full flex flex-col justify-center items-center mt-5">
@@ -28,23 +28,23 @@ const Contact = () => {
                         <div className="flex flex-col md:items-end justify-center w-full mr-5">
 
                             <div className="flex flex-row justify-end w-5/6 md:w-3/4">
-                                <label className="text-lg font-bold mt-3 ml-5">Asunto:</label>
-                                <input ref={subject} type="text" className="my-3 ml-2 w-1/2 border rounded shadow-md text-gray-600 px-2 focus:border-purple-700 focus:ring-1 focus:ring-purple-700 outline-none"></input>
+                                <label className="md:text-lg font-bold mt-3 ml-5">Asunto:</label>
+                                <input ref={subject} type="text" className="my-3 ml-2 w-2/3 border rounded shadow-md text-gray-600 px-2 focus:border-purple-700 focus:ring-1 focus:ring-purple-700 outline-none"></input>
                             </div>
 
                             <div className="flex flex-row justify-end w-5/6 md:w-3/4">
-                                <label className="text-lg font-bold mt-3 ml-5">Tu correo:</label>
-                                <input ref={email} type="text" className="my-3 ml-2 w-1/2 border rounded shadow-md text-gray-600 px-2 focus:border-purple-700 focus:ring-1 focus:ring-purple-700 outline-none"></input>
+                                <label className="md:text-lg font-bold mt-3 ml-5">Tu correo:</label>
+                                <input ref={email} type="text" className="my-3 ml-2 w-2/3 border rounded shadow-md text-gray-600 px-2 focus:border-purple-700 focus:ring-1 focus:ring-purple-700 outline-none"></input>
                             </div>
 
                             <div className="flex flex-row justify-end w-5/6 md:w-3/4">
-                                <label className="text-lg font-bold mt-3 ml-5">Tu nombre:</label>
-                                <input ref={name} type="text" className="my-3 ml-2 w-1/2 border rounded shadow-md text-gray-600 px-2 focus:border-purple-700 focus:ring-1 focus:ring-purple-700 outline-none"></input>
+                                <label className="md:text-lg font-bold mt-3 ml-5">Tu nombre:</label>
+                                <input ref={name} type="text" className="my-3 ml-2 w-2/3 border rounded shadow-md text-gray-600 px-2 focus:border-purple-700 focus:ring-1 focus:ring-purple-700 outline-none"></input>
                             </div>
 
                             <div className="flex flex-row justify-end w-5/6 md:w-3/4">
-                                <label className="text-lg font-bold mt-3 ml-5">Empresa (opcional): </label>
-                                <input ref={brand} type="text" className="my-3 ml-2 w-1/2 border rounded shadow-md text-gray-600 px-2 focus:border-purple-700 focus:ring-1 focus:ring-purple-700 outline-none"></input>
+                                <label className="md:text-lg font-bold mt-3 ml-5">Empresa (opcional): </label>
+                                <input ref={brand} type="text" className="my-3 ml-2 w-2/3 border rounded shadow-md text-gray-600 px-2 focus:border-purple-700 focus:ring-1 focus:ring-purple-700 outline-none"></input>
                             </div>
                         </div>
 
@@ -57,7 +57,7 @@ const Contact = () => {
 
                     </form>
 
-                    <div className="flex justify-center w-full mt-10">
+                    <div className="flex justify-center w-full mt-10 mb-10">
                         <GeneralButton text={"Enviar"} />
                     </div>
                 </div>
