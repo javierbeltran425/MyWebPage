@@ -18,7 +18,7 @@ const Contact = () => {
 
     return(
         <>
-            <BackDiv className="w-full h-screen">
+            <BackDiv className="w-full">
                 <Header />
                 <h1 className="text-white text-center text-xl md:text-5xl font-bold pt-16">¿Estas listo para trabajar con migo?</h1>
                 <h2 className="text-white text-center md:text-3xl font-bold pt-5">¡HABLEMOS!</h2>
