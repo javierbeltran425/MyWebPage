@@ -24,7 +24,7 @@ const Home = () => {
         <>
             <BackDiv className="w-full md:h-screen">
                 <Header />
-                <div className="flex flex-col md:flex-row w-full h-auto pt-20">
+                <div className="flex flex-col md:flex-row w-full h-full pt-20">
                     <div className="flex justify-center w-full md:w-1/4 h-full overflow-hidden">
                         <img src={Me} className="w-2/4 md:w-3/4 rounded-full md:ml-20 mt-10 ring-2 ring-blue-600" alt=""/>
                     </div>
