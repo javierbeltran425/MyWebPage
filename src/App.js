@@ -4,6 +4,10 @@ import Home from './Pages/Home'
 import Contact from './Pages/Contact'
 import AboutMe from './Pages/AboutMe'
 
+import 'primereact/resources/themes/saga-blue/theme.css'
+import 'primereact/resources/primereact.min.css'
+import 'primeicons/primeicons.css'
+
 function App() {
   return (
     <>
