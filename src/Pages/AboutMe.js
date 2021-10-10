@@ -21,6 +21,7 @@ import mongodb from '../Resources/Imagenes/MongoDB.png'
 import postgre from '../Resources/Imagenes/postgre.png'
 import mysql from '../Resources/Imagenes/MySQL.png'
 import oracledb from '../Resources/Imagenes/oracledb.svg'
+import primereact from '../Resources/Imagenes/primereact.png'
 
 const BackDiv = styled.div`
     background: url(${Moon});
@@ -81,6 +82,7 @@ const AboutMe = () => {
                         <h3 className="text-white text-center text-3xl font-bold">Taildwindcss</h3>
                     </div>
                     <img src={expressjs} alt="bootstrap logo" className="w-52 mx-10 my-5 md:my-0" />
+                    <img src={primereact} alt="bootstrap logo" className="w-52 mx-10 my-5 md:my-0" />
                 </div>
                 <h1 className="text-white pt-10 pl-10 font-extrabold text-xl">BASES DE DATOS</h1>
                 <div className="flex flex-row flex-wrap w-full items-center justify-center mt-5">
