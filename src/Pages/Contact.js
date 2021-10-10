@@ -46,7 +46,7 @@ const Contact = () => {
                             </span>
 
                             <span className="p-float-label my-3 md:my-0">
-                                <InputText id="company" ref={name} className="p-inputtext-sm p-d-block p-mb-2" />
+                                <InputText id="company" ref={brand} className="p-inputtext-sm p-d-block p-mb-2" />
                                 <label htmlFor="company">Empresa (Opcional)</label>
                             </span>
                         </div>

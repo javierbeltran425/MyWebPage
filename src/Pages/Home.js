@@ -10,6 +10,7 @@ import Moon from '../Resources/Imagenes/moon.jpg'
 const BackDiv = styled.div`
     background: url(${Moon});
     background-size: cover;
+    background-color: #000000;
 `
 
 const Home = () => {
@@ -22,9 +23,9 @@ const Home = () => {
 
     return(
         <>
-            <BackDiv className="w-full md:h-screen">    
+            <BackDiv className="md:h-screen">    
                 <Header />
-                <div className="flex flex-col md:flex-row w-full h-auto pt-20">
+                <div className="flex flex-col md:flex-row w-screen h-auto pt-20">
                     <div className="flex justify-center w-full md:w-1/4 h-full overflow-hidden">
                         <img src={Me} className="w-2/4 md:w-3/4 rounded-full md:ml-20 mt-10 ring-2 ring-blue-600" alt=""/>
                     </div>
@@ -34,7 +35,7 @@ const Home = () => {
                             <h2 className="text-center md:text-2xl pt-5">Desarrollador web y desarrollador Full Stack.</h2>
                         </div>
 
-                        <div className="flex flex-col md:flex-row w-full justify-center items-center mt-10">
+                        <div className="flex flex-col md:flex-row w-full justify-center items-center mt-10 mb-32 md:mb-0">
                             <div className="my-5 md:mx-5">
                                 <GeneralButton text={'Portafolio'} />
                             </div>
