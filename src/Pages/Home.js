@@ -36,7 +36,10 @@ const Home = () => {
                         </div>
 
                         <div className="flex flex-col md:flex-row w-full justify-center items-center mt-10 mb-32 md:mb-0">
-                            <div className="my-5 md:mx-5">
+                            <div onClick={e => {
+                                e.preventDefault()
+                                alert('Esta función aún no está disponible')
+                            }} className="my-5 md:mx-5">
                                 <GeneralButton text={'Portafolio'} />
                             </div>
                             <div  onClick={ContactOnClick} className="my-5 md:mx-5">
