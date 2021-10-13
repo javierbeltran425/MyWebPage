@@ -60,7 +60,10 @@ const Contact = () => {
 
                     </form>
 
-                    <div className="flex justify-center w-full h-full mt-10 mb-10">
+                    <div onClick={e => {
+                        e.preventDefault()
+                        alert('Esta función aún no está disponible')
+                    }} className="flex justify-center w-full h-full mt-10 mb-10">
                         <GeneralButton text={"Enviar"} />
                     </div>
                 </div>
